@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'MIXING.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'DB_mixing',
+        'NAME': 'mixing',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
